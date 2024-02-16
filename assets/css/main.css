@@ -2,7 +2,8 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background: linear-gradient(-45deg,  #22236b, #1c1d59, #151643, #0e0f2e, #000000);
+    background: linear-gradient(-45deg,  #4042ac,#363895,#2c2e7e ,#22236b, #1c1d59, #151643, #0e0f2e, #000000);
+    background-size: 400% 400%;
     display: grid;
     justify-content: center;
     align-items: center;
