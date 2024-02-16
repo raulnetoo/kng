@@ -2,11 +2,12 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #22236b;
-    display: flex;
+    background: linear-gradient(-45deg,  #22236b, #1c1d59, #151643, #0e0f2e, #000000);
+    display: grid;
     justify-content: center;
     align-items: center;
     height: 100vh;
+    animation: backgroundTransition 8s ease-in-out infinite;
 }
 .container {
     width: 90%;
@@ -26,7 +27,7 @@ body {
 }
 .profile-info {
     text-align: center;
-    margin-top: 20px;
+    margin-top: 20p
 }
 h1 {
     color: #fff;
@@ -48,8 +49,27 @@ p {
     font-size: 40px;
 }
 
+@keyframes backgroundTransition {
+    0% {
+        background-position: 0% 80%;
+    }
+    50% {
+        background-position: 80% 100%;
+    }
+    100% {
+        background-position: 0% 90%;
+    }
+    
+}
+
 /*=============== FOOTER ===============*/
- 
+.footer {
+    clear: both;
+    text-align: center;
+    margin-top: 20px; /* Adicione a margem superior para criar espaço entre o container e o rodapé */
+    color: #ffffff85; /* Cor do texto */
+}
+
 
 @media screen and (max-width: 768px) {
     .container {
